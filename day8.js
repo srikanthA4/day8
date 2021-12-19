@@ -1,14 +1,14 @@
-1.The class Movie is stated below. An instance of class Movie represents a film. This class has the following three properties:
+//1.The class Movie is stated below. An instance of class Movie represents a film. This class has the following three properties:
 
-title, which is a String representing the title of the movie
-studio, which is a String representing the studio that made the movie rating, which is a String representing the rating of the movie (i.e. PG­13, R, etc)
- a) Write a constructor for the class Movie, which takes a String representing the title of the movie, a String representing the studio, and a String representing the rating as its arguments, and sets the respective class properties to these values.
+// title, which is a String representing the title of the movie
+// studio, which is a String representing the studio that made the movie rating, which is a String representing the rating of the movie (i.e. PG­13, R, etc)
+//  a) Write a constructor for the class Movie, which takes a String representing the title of the movie, a String representing the studio, and a String representing the rating as its arguments, and sets the respective class properties to these values.
 
- b) The constructor for the class Movie will set the class property rating to "PG" as default when no rating is provided.
+//  b) The constructor for the class Movie will set the class property rating to "PG" as default when no rating is provided.
 
- c) Write a method getPG, which takes an array of base type Movie as its argument, and returns a new array of only those movies in the input array with a rating of "PG". You may assume the input array is full of Movie instances. The returned array need not be full.
+//  c) Write a method getPG, which takes an array of base type Movie as its argument, and returns a new array of only those movies in the input array with a rating of "PG". You may assume the input array is full of Movie instances. The returned array need not be full.
 
- d) Write a piece of code that creates an instance of the class Movie with the title “Casino Royale”, the studio “Eon Productions”, and the rating “PG­13”
+//  d) Write a piece of code that creates an instance of the class Movie with the title “Casino Royale”, the studio “Eon Productions”, and the rating “PG­13”
 class movie{
     constructor(title,studio,rating){
         this.title=title;
@@ -52,7 +52,7 @@ class movie{
 //   { title: 'manam', studio: 'anapurna', rating: 'PG' },
 //   { title: 'anubavinchuraja', studio: 'anapurna', rating: 'RR' } ]
 // [ 'sye', 'manam' ]
-2.Convert the UML diagram to Typescript class. - use number for double
+//2.Convert the UML diagram to Typescript class. - use number for double
 
 class Circle{
     constructor(color,radius){
@@ -95,12 +95,12 @@ console.log(circle2.display())
 console.log(circle3.getArea())
 console.log(circle3.getCircumference())
 //output:
-[ radius : 6 , color : white]
-[ radius : 9 , color : red]
-"Area of circle is" NaN
-"Circumference of circle is" NaN
+// [ radius : 6 , color : white]
+// [ radius : 9 , color : red]
+// "Area of circle is" NaN
+// "Circumference of circle is" NaN
 
-3.Write a “person” class to hold all the details.
+// 3.Write a “person” class to hold all the details.
 class Person{
     constructor(name,heigth,weigth,age,colour,qualification,city){
         this.name=name;
@@ -125,15 +125,15 @@ class Person{
 }
 let Person1=new Person("sri","5.8","70","23","black","B.tech","nellore")
 Person1.details()
-output:
-        name:sri
-        height:5.8
-        weight:70
-        age:23
-        color:black
-        qualification:B.tech
-        city:nellore
-4.write a class to calculate uber price.
+// output:
+//         name:sri
+//         height:5.8
+//         weight:70
+//         age:23
+//         color:black
+//         qualification:B.tech
+//         city:nellore
+//4.write a class to calculate uber price.
 class UberPrice {
     constructor(distance) {
       this.distance = distance;
@@ -146,4 +146,4 @@ class UberPrice {
   
   let uber = new UberPrice(10);
   console.log(uber.getPrice());
-output:200
+//output:200
